@@ -1,4 +1,8 @@
 TwitterHacks::Application.routes.draw do
+
+  match 'searches/:query' => 'searches#show'
+  match 'searches' => 'searches#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

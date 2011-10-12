@@ -1,0 +1,22 @@
+
+
+Started GET "/searches/1222/" for 127.0.0.1 at Wed Oct 12 21:02:26 +0100 2011
+
+TypeError (superclass must be a Class (Module given)):
+  app/models/search.rb:1
+  app/controllers/searches_controller.rb:1
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/searches/" for 127.0.0.1 at Wed Oct 12 21:02:45 +0100 2011
+
+TypeError (superclass must be a Class (Module given)):
+  app/models/search.rb:1
+  app/controllers/searches_controller.rb:1
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
