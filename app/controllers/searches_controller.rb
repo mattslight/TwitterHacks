@@ -1,15 +1,10 @@
 class SearchesController < ApplicationController
   
-  def index
-    @searches = Search.all
-    
-    respond_to 
-
+  def index 
   end
 
   def show
-    @search = Search.find(params[:query])
-
+    @search = Search.search(params[:query])
   end
 
 end
